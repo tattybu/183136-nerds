@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Нердс</title>
+</head>
+<body>
+<header class="main-header">
+<div class="container">
+<div class="header-top clearfix">
+<div class="logo">
+<a href="index.html">
+<img src="img/logo-nerds.png" width="140" height="56" alt="nerds">
+</a>
+</div>
+<nav class="main-navigation">
+<ul class="menu clearfix">
+<li>
+<a href="index.html">Студия</a>
+</li>
+<li>
+<a href="#">Клиенты</a>
+</li>
+<li>
+<a class="active" href="#">Магазин</a>
+</li>
+<li>
+<a href="#">Контакты</a>
+</li>
+</ul>
+</nav>
+<div class="cart-link">
+<a href="#" class="icon-basket">Корзина</a>
+</div>
+</div>
+<!--HEADLINE-->
+<div class="header-bottom">
+<div class="headline">
+<h2> Добро пожаловать в магазин<br> готовых макетов</h2>
+</div>
+</div>
+</div>
+</header>
+<!--CONTENT-->
+<div class="container clearfix">
+<section class="content-column-left clearfix">
+<form class="pricerange-filter">
+<div class="pricerange-checkbox">
+<h2 class="pricerange-title">Стоимость:</h2>
+<div class="range-controls">
+<div class="scale">
+<div class="bar"></div>
+</div>
+<div class="toggle min-toggle"></div>
+<div class="toggle max-toggle"></div>
+</div>
+<div class="price-controls">
+<label class="label">От
+<input class="min-price" type="text" value="0"/>
+</label>
+<div class="max-price">
+<label class="label">До
+<input class="max-price" type="text" value="15000"/>
+</label>
+</div>
+</div>
+</div>
+<h2 class="pricerange-title">Сетка:</h2>
+<div class="radio-btn">
+<ul>
+<li><input type="radio" id="adaptive" name="greed" checked><label for="adaptive"><span></span>Адаптивная</label></li>
+<li><input type="radio" id="fixed" name="greed" disabled><label for="fixed"><span></span>Фиксированная</label></li>
+<li><input type="radio" id="responsive" name="greed"><label for="responsive"><span></span>Резиновая</label></li>
+</ul>
+</div>
+<h2 class="pricerange-title">Особенности:</h2>
+<div class="checkbox-btn">
+<ul>
+<li><input type="checkbox" id="slider" checked><label for="slider"><span></span>Слайдер</label></li>
+<li><input type="checkbox" id="advantages" disabled><label for="advantages"><span></span>Блок преимуществ</label></li>
+<li><input type="checkbox" id="news" checked><label for="news"><span></span>Новости</label></li>
+<li><input type="checkbox" id="gallery"><label for="gallery"><span></span>Галерея</label></li>
+<li><input type="checkbox" id="tray"><label for="tray"><span></span>Корзина</label></li>
+</ul>
+</div>
+<div>
+<button class="btn grey-btn">Показать</button>
+</div>
+</form>
+</section>
+<!-- Right section-->
+<section class="content-column-right clearfix">
+<div class="sort">
+<ul>
+<li>Сортировать:</li>
+<li>
+<a href="#">По цене</a>
+</li>
+<li>
+<a href="#"><span>По типу</span></a>
+</li>
+<li>
+<a href="#"><span>По функционалу</span></a>
+</li>
+<li>
+<a href="#" class="btn-up btn-up-active"></a>
+</li>
+<li>
+<a href="#" class="btn-down"></a>
+</li>
+</ul>
+</div>
+<!--CATALOG-->
+<div class="catalog clearfix">
+<div class="catalog-items">
+<!-- Article 1-->
+<article class="catalog-item">
+<div class="image">
+<a href="#" target="_blank"><img src="img/aviator.jpg" width="240" height="240" alt="aviator"></a>
+</div>
+<div class="info-box">
+<div class="content">
+<h5 class="title">Aviator</h5>
+<p class="description">Интернет-магазин с личным кабинетом</p>
+<a href="#" target="_blank" class="btn price-btn">10 000 Р.</a>
+</div>
+</div>
+</article>
+<!-- Article 2-->
+<article class="catalog-item">
+<div class="browser top-side"></div>
+<div class="image">
+<a href="#" target="blank"><img src="img/sunset.jpg" width="240" height="240" alt="sunset"></a>
+</div>
+<div class="info-box">
+<div class="content">
+<h5 class="title">Sunset</h5>
+<p class="description">Интернет-магазин с личным кабинетом</p>
+<a href="#" target="_blank" class="btn price-btn">10 000 Р.</a>
+</div>
+</div>
+</article>
+<!-- Article 3-->
+<article class="catalog-item">
+                            
+<div class="browser top-side"></div>
+<div class="image">
+<a href="#" target="_blank"><img src="img/forte.jpg" width="240" height="240" alt="forte"></a>
+</div>
+<div class="info-box">
+<div class="content">
+<h5 class="title">Forte</h5>
+<p class="description">Интернет-магазин с личным кабинетом</p>
+<a href="#" target="_blank" class="btn price-btn">10 000 Р.</a>
+</div>
+</div>
+</article>
+<!-- Article 4-->
+<article class="catalog-item">
+<div class="browser top-side"></div>
+<div class="image">
+<a href="#" target="blank"><img src="img/organicthai.jpg" width="240" height="240" alt="thaifood"></a>
+</div>
+<div class="info-box">
+<div class="content">
+<h5 class="title">Thai</h5>
+<p class="description">Интернет-магазин с личным кабинетом</p>
+<a href="#" class="btn price-btn">10 000 Р.</a>
+</div>
+</div>
+</article>
+<!-- Article 5-->
+<article class="catalog-item">
+<div class="browser top-side"></div>
+<div class="image">
+<a href="#" target="_blank"><img src="img/avenue.jpg" width="240" height="240" alt="avenue"></a>
+</div>
+<div class="info-box">
+<div class="content">
+<h5 class="title">Avenue</h5>
+<p class="description">Интернет-магазин с личным кабинетом</p>
+<a href="#" class="btn price-btn">10 000 Р.</a>
+</div>
+</div>
+</article>
+<!-- Article 6-->
+<article class="catalog-item">
+<div class="browser top-side"></div>
+<div class="image">
+<a href="#" target="_blank"><img src="img/dovetail.jpg" width="240" height="240" alt="dovetail"></a>
+</div>
+<div class="info-box">
+<div class="content">
+<h5 class="title">Dovetail</h5>
+<p class="description">Интернет-магазин с личным кабинетом</p>
+<a href="#" class="btn price-btn">10 000 Р.</a>
+</div>
+</div>
+</article>
+                        
+</div>
+</div>
+<div class="paginator">
+<span class="grey-btn current">1</span>
+<a href="#" class="grey-btn">2</a>
+<a href="#" class="grey-btn">3</a>
+<a href="#" class="grey-btn">Следующая</a>
+</div>
+<!--  </div> -->
+<!-- </div> -->
+</section>
+</div>
+<footer class="main-footer">
+<!-- Location-->
+<section class="location">
+<div class="footer-container clearfix">
+<div class="map">
+<div id="map"></div>
+<div class="container clearfix">
+<div class="adress-box">
+<div class="adress-text clearfix">
+<h4 class="title">Nerds Design Studio</h4>
+<p class="adress">191186, Санкт-Петербург, ул.Б. Конюшенная, д.19/8</p>
+<p class="phone">тел. +7 (495) 666-02-66</p>
+</div>
+<a href="#" class="btn feedback-btn">Напишите нам</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="footer-social">
+<div class="container clearfix">
+<div class="social-btn">
+<ul class="social-menu clearfix">
+<li><a href="http://vkontakte.ru" target="_blank" class="btn icon-vk" ></a></li>
+<li><a href="http://facebook.com" target="_blank" class="btn icon-facebook"></a></li>
+<li><a href="http://instagram.com" target="_blank" class="btn icon-instagramm"></a></li>
+</ul>
+</div>
+<div class="social-text clearfix">
+<h2>Давайте дружить, это выгодно</h2>
+<p>Скидка 10% для друзей из социальных сетей.</p>
+</div>
+</div>
+</section>
+</footer>
+</header>
+</body>
+</html>

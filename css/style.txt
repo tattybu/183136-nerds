@@ -1,0 +1,28 @@
+body {
+  min-width: 900px;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+}
+
+h1 {
+
+}
+
+
+h2 {
+
+}
+
+размер шрифта,
+высоту строки,
+цвет шрифта,
+жирность шрифта,
+гарнитуру (название шрифта).

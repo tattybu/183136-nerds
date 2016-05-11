@@ -1,3 +1,214 @@
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+ line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+
 /*===============================
              FONTS
 ================================*/
@@ -111,7 +322,7 @@ body {
   padding: 0;
   background-color: #fff;
   position: relative;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', "Arial", sans-serif;
   font-size: 16px;
   line-height: 22px;
   font-weight: 300;
@@ -189,6 +400,7 @@ body {
   position: relative;
   display: inline-block;
   vertical-align: middle;
+  float: right;
   max-width: 150px;
   margin-left: 20px;
   margin-top: 33px;
@@ -227,6 +439,7 @@ body {
 
 .main-navigation {
   float: left;
+  display: block;
   width: 420px;
 }
 
@@ -249,6 +462,7 @@ body {
 }
 
 .menu a {
+  display: block;
   padding: 10px;
   margin-top: 12px;
   font-size: 14px;
@@ -346,17 +560,34 @@ body {
   width: 240px;
 }
 
-.slide-text {
+.slide-text_one {
   width: 380px;
   padding: 30px 0;
   color: #283136;
 }
 
-.slide-title {
-  font-size: 36px;
-  line-height: 1;
-  font-weight: 500;
-  color: #000;
+.slide-text_two {
+      width: 480px;
+    padding: 65px 0;
+    color: #283136;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+  .slide-text_three {
+        width: 480px;
+    padding: 65px 0;
+    color: #283136;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+
+.slider__slide-h1 {
+    font-size: 36px;
+    line-height: 1;
+    font-weight: 500;
+    color: #000;
 }
 
 .slide p {
@@ -514,6 +745,7 @@ body {
 }
 
 .upper-row-text {
+  display: block;
   float: left;
   width: 580px;
   margin-right: 40px;
@@ -533,6 +765,7 @@ body {
 }
 
 .upper-row-logo {
+  display: block;
   float: right;
 }
 
@@ -586,6 +819,7 @@ body {
 ================================*/
 
 .partners {
+  display: block;
   padding: 45px 0 35px;
   border-bottom: 2px solid #eee;
   text-align: center;
@@ -620,6 +854,7 @@ body {
                                 CONTENT ITEM PAGE
 ======================================================================*/
 .content-column-left {
+  display: block;
   float: left;
   width: 240px;
 }
@@ -627,6 +862,7 @@ body {
             PRICERANGE FILTER
 ================================*/
 .pricerange-filter {
+  display: block;
   width: 240px;
   min-height: 170px;
   margin-bottom: 45px;
@@ -815,6 +1051,7 @@ input {
 
 .sort {
   width: 570px;
+  display: block;
   margin-right: 0;
 }
 
@@ -835,6 +1072,7 @@ input {
 }
 
 .sort a {
+  display: block;
   padding: 0;
   text-decoration: none;
   color: #ccc;
@@ -926,6 +1164,7 @@ input {
 }
 
 .catalog-item .info-box {
+  display: block;
   position: absolute;
   top: 10%;
   left: 10%;
@@ -942,6 +1181,7 @@ input {
 }
 
 .content {
+  display: block;
   padding: 30px 25px;
 }
 
@@ -963,6 +1203,7 @@ input {
 }
 
 .price-btn {
+  display: block;
   margin-top: 30px;
   font-size: 18px;
 }
@@ -1045,6 +1286,7 @@ input {
 
 
 .adress-box {
+  display: block;
   position: absolute;
   top: 30%;
   z-index: 1;
@@ -1057,6 +1299,7 @@ input {
 }
 
 .adress-text {
+  display: block;
   margin: 0;
   padding: 0;
   font-size: 0;
@@ -1087,6 +1330,7 @@ input {
 }
 
 .adress-box .btn {
+  display: block;
   margin-bottom: 0;
   margin-top: 25px;
 }
@@ -1156,12 +1400,14 @@ input {
 }
 
 label {
+  display: block;
   margin-bottom: 5px;
 }
 
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
+  display: block;
   width: 186px;
   padding: 7px 15px;
   border: 2px solid #d7dcde;
@@ -1219,6 +1465,7 @@ label {
 }
 
 .write-us-show {
+  display: block;
   -webkit-animation: login-open 0.4s;
   animation: login-open 0.4s;
 }
@@ -1229,6 +1476,7 @@ label {
 }
 
 .form-close {
+  display: block;
   width: 42px;
   height: 42px;
   background: #fb565a;
@@ -1276,9 +1524,10 @@ label {
 }
 
 .social-btn li {
+  display: block;
   vertical-align: middle;
   float: left;
-  margin-right: 27px;
+  margin-right: 25px;
 }
 
 .social-btn li a {
@@ -1286,6 +1535,7 @@ label {
 }
 
 .social-btn li a.btn {
+  display: block;
   width: 60px;
   height: 60px;
   border-radius: 50%;

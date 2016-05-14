@@ -337,17 +337,17 @@ body {
 }
 
 .btn {
-  display: inline-block;
-  padding: 14px 10px;
-  font-size: 12px;
-  line-height: 12px;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  text-decoration: none;
-  background-color: #fb565a;
-  border-radius: 3px;
-  border: none;
+    display: inline-block;
+    padding: 12px 10px;
+    font-size: 12px;
+    line-height: 12px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fb565a;
+    border-radius: 3px;
+    border: none;
 }
 
 .btn:hover {
@@ -386,8 +386,8 @@ body {
   padding: 25px 0;
 }
 
-.header-bottom {
-  padding: 25px 0 0;
+    .header-bottom {
+    padding: 15px 0 0;
 }
 
 .logo {
@@ -397,17 +397,16 @@ body {
 }
 
 .cart-link {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  float: right;
-  max-width: 150px;
-  margin-left: 20px;
-  margin-top: 33px;
-  padding: 0;
-  font-size: 14px;
-  line-height: 14px;
-  text-transform: uppercase;
+    position: relative;
+    float: right;
+    max-width: 150px;
+    margin-top: 34px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    margin-right: 3px;
+    
 }
 
 .cart-link a {
@@ -438,10 +437,13 @@ body {
 ================================*/
 
 .main-navigation {
-  float: left;
-  display: block;
-  width: 420px;
-}
+    float: left;
+    display: block;
+    width: 420px;
+   padding-left: 30px;
+   padding-top: 2px;
+
+ }
 
 .menu {
   margin: 12px 0 0;
@@ -557,7 +559,7 @@ body {
 }
 
 .slide .btn {
-  width: 240px;
+    width: 220px;
 }
 
 .slide-text_one {
@@ -662,13 +664,15 @@ body {
   ITEM PAGE 
 ==============*/
 .headline h2 {
-  margin: 0;
+ margin: 0;
   padding: 50px 0 70px;
   text-align: center;
   line-height: 100%;
   font-size: 40px;
   font-weight: 300;
 }
+
+
   
   
 
@@ -692,21 +696,21 @@ body {
 }
 
 .products-title {
-  font-size: 18px;
-  color: #000;
-  margin-top: 25px;
-  text-transform: uppercase;
-  font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    margin-top: 21px;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 .products-text {
-  font-size: 15px;
-  margin-bottom: 30px;
-  color: #283136;
+    font-size: 15px;
+    margin-bottom: 28px;
+    color: #283136;
 }
 
 .products-item .btn {
-  width: 140px;
+    width: 120px;
 }
 
 .green-btn {
@@ -740,15 +744,16 @@ body {
 ================================*/
 
 .presentation {
-  padding: 60px 0;
-  border-bottom: 2px solid #eee;
+    padding: 60px 0;
+    border-bottom: 2px solid #eee;
 }
 
 .upper-row-text {
-  display: block;
-  float: left;
-  width: 580px;
-  margin-right: 40px;
+    display: block;
+    float: left;
+    width: 580px;
+    margin-right: 40px;
+    padding-top: 10px;
 }
 
 .upper-row-text h1 {
@@ -760,9 +765,10 @@ body {
 }
 
 .upper-row-text p {
-  color: #283136;
-  margin: 0;
-}
+    color: #283136;
+    margin: 0;
+    padding-top: 2px;
+    }
 
 .upper-row-logo {
   display: block;
@@ -770,8 +776,9 @@ body {
 }
 
 .presentation-bottom-row {
-  padding-top: 50px;
+    padding-top: 46px;
 }
+
 
 .strenghts-left {
   float: left;
@@ -798,10 +805,10 @@ body {
 }
 
 .list-style li {
-  color: #283136;
-  padding-left: 37px;
-  margin: 14px 0;
-  position: relative;
+    color: #283136;
+    padding-left: 37px;
+    margin: 19px 0;
+    position: relative;
 }
 
 .list-style li:before {
@@ -819,20 +826,21 @@ body {
 ================================*/
 
 .partners {
-  display: block;
-  padding: 45px 0 35px;
-  border-bottom: 2px solid #eee;
-  text-align: center;
+    display: block;
+    padding: 38px 0 29px;
+    border-bottom: 2px solid #eee;
+    text-align: center;
 }
 
 .partners-logo {
-  width: 280px;
-  display: inline-block;
-  vertical-align: middle;
-  opacity: .2;
-  -webkit-transition: opacity .15s ease-in-out;
-  -o-transition: opacity .15s ease-in-out;
-  transition: opacity .15s ease-in-out;
+    width: 280px;
+    display: inline-block;
+    vertical-align: middle;
+    opacity: .2;
+    -webkit-transition: opacity .15s ease-in-out;
+    -o-transition: opacity .15s ease-in-out;
+    transition: opacity .15s ease-in-out;
+    padding-right: 5px;
 }
 
 .partners-logo:first-child {
@@ -854,9 +862,10 @@ body {
                                 CONTENT ITEM PAGE
 ======================================================================*/
 .content-column-left {
-  display: block;
-  float: left;
-  width: 240px;
+    display: block;
+    float: left;
+    width: 240px;
+    padding-top: 30px;
 }
 /*===============================
             PRICERANGE FILTER
@@ -869,11 +878,12 @@ body {
 }
 
 .pricerange-title {
-  font-size: 18px;
-  line-height: 16px;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin: 50px 0 20px;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 50px 0 20px;
+    padding-bottom: 7px;
 }
 
 .range-controls {
@@ -947,6 +957,11 @@ body {
 
 input {
   line-height: normal;
+
+}
+
+input:focus {
+	outline: none 
 }
 /*===============================
       RADIO AND CHECKBOX BTNS
@@ -1050,27 +1065,29 @@ input {
 }
 
 .sort {
-  width: 570px;
-  display: block;
-  margin-right: 0;
+    width: 570px;
+    display: block;
+    margin-right: 0;
+    padding-top: 60px;
 }
 
 .sort ul {
-  margin-bottom: 20px;
-  padding: 0;
-  list-style: none;
+    margin-bottom: 20px;
+    padding: 0;
+    list-style: none;
+    margin-left: 9px;
 }
 
 .sort li {
-  display: inline-block;
-  vertical-align: top;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.5;
-  text-transform: uppercase;
-  margin-right: 38px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin-right: 37px;
+        padding-top: 2px;
 }
-
 .sort a {
   display: block;
   padding: 0;
@@ -1234,8 +1251,14 @@ input {
   text-transform: uppercase;
 }
 
-.paginator .current {
-  background: #ffffff;
+  .paginator .current {
+    background: #ffffff;
+    margin: 3px;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
 }
 
 .paginator a:hover {
@@ -1283,19 +1306,18 @@ input {
 /*===============================
             ADRESS
 ================================*/
-
-
-.adress-box {
-  display: block;
-  position: absolute;
-  top: 30%;
-  z-index: 1;
-  width: 200px;
-  height: 186px;
-  background-color: #fff;
-  text-align: left;
-  padding: 30px 20px 20px 20px;
-  margin: 0;
+    .adress-box {
+    display: block;
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    text-align: left;
+    padding: 40px 29px 0px 20px;
+    margin: 0;
+}
 }
 
 .adress-text {
@@ -1330,10 +1352,12 @@ input {
 }
 
 .adress-box .btn {
-  display: block;
-  margin-bottom: 0;
-  margin-top: 25px;
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    width: 185px;
 }
+
 /*===============================
             WRITE US FORM
 ================================*/
@@ -1517,10 +1541,12 @@ label {
   float: left;
 }
 
-.social-menu {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    .social-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-top: 1px;
+    padding-left: 8px;
 }
 
 .social-btn li {
@@ -1559,14 +1585,138 @@ label {
 }
 
 .social-text h2 {
-  font-size: 36px;
-  line-height: 1;
-  color: #000;
-  margin: 0 0 10px;
-  font-weight: 500;
+    font-size: 36px;
+    line-height: 1;
+    color: #000;
+    margin: 0 0 10px;
+    font-weight: 500;
+    margin-right: 30px;
 }
 
 .social-text p {
-  text-align: left;
-  color: #283136;
+    text-align: left;
+    color: #283136;
+    margin-top: 0;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

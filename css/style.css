@@ -1538,9 +1538,10 @@ label {
             FOOTER-SOCIAL
 ================================*/
 .footer-social {
-  padding-top: 75px;
-  padding-bottom: 70px;
+    padding-top: 65px;
+   
 }
+
 
 .social-btn {
   float: left;
